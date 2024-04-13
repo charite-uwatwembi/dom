@@ -41,10 +41,9 @@ addBtn.addEventListener("click",function(){
          btnIds.push(buttonId)
     list.innerHTML+=`
      <div class="flex">
-                <div class="name">
+                <div class="name flex">
                     <div >${name}</div>
-                </div>
-                <div>
+                
                     <button class="remove-btn" id=${buttonId}>Remove</button>
                 </div>
             </div> `

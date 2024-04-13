@@ -9,6 +9,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.container{
+    border-radius: 5px;
+    background-color:#eee;
+    padding: 200px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 50px;
 }
 .flex{
     display: flex;
@@ -16,8 +28,34 @@
     align-items: center;
     gap:10px
 }
-.name{
-    width: 90%;
-    margin: 7px 0;
+.add-input{
+    padding :10px 0px;
     border: 1px solid black;
 }
+.add-btn{
+    padding: 10px;
+    border-radius: 5px ;
+    transition: background-color 0.3s;
+    
+}
+.add-btn:hover {
+    background-color: #0243f7a1; 
+}
+
+.name{
+    
+    justify-content: space-between;
+    padding: 10px;
+    margin: 7px 0;
+    width: 100%;
+    border: 1px solid black;
+}
+.remove-btn{
+    padding: 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.remove-btn:hover {
+    background-color: #f70202a6; 
+}
+
